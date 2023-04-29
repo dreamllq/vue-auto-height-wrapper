@@ -13,6 +13,7 @@
   "files": [
     "/dist"
   ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "npm run docs:dev",
     "build": "vue-tsc && vite build && vue-tsc",
