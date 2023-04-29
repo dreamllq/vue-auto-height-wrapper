@@ -2,10 +2,13 @@
 # hello-world
 
 <script setup lang="ts">
-  import { Hello, World } from '@/index.ts'
+  import { AutoHeightWrapper } from '@/index.ts'
 </script>
 
-<div>
-  <hello />
-  <world />
+<div style='height: 300px;'>
+  <AutoHeightWrapper>
+    <template #default="{size}">
+      {{size}}
+    </template>
+  </AutoHeightWrapper>  
 </div>

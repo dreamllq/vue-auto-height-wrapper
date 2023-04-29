@@ -1,6 +1,6 @@
 {
-  "name": "vite-vue3-ts-component-template",
-  "version": "0.0.0",
+  "name": "lc-vue-auto-height-wrapper",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/vue-auto-height-wrapper.umd.cjs",
   "module": "./dist/vue-auto-height-wrapper.js",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vueuse/core": "^10.1.0",
     "element-plus": "^2.3.4",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
