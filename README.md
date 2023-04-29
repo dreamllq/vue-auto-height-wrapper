@@ -1,1 +1,1 @@
-# vite-vue3-ts-component-template
+# lc-vue-auto-height-wrapper
