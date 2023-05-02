@@ -1,7 +1,7 @@
 {
   "name": "lc-vue-auto-height-wrapper",
   "description": "ResizeObserver封装",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "type": "module",
   "main": "./dist/vue-auto-height-wrapper.umd.cjs",
   "module": "./dist/vue-auto-height-wrapper.js",
