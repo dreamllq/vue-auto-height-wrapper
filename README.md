@@ -1,9 +1,14 @@
 # lc-vue-auto-height-wrapper
 
-自动适配外层容器容器尺寸
-## 文档
+ResizeObserver封装， 能够方便的在template中获取父容器的尺寸
 
-文档 [unpkg](https://unpkg.com/lc-vue-auto-height-wrapper/docs/.vitepress/dist/index.html) `unpkg原因，需要点击左上角跳转文档`】
+常用场景：
+
+- 配合 element-plus 中的 table 组件实现动态容器固定表头
+
+## Demo
+
+[demo](https://unpkg.com/lc-vue-auto-height-wrapper/docs/.vitepress/dist/index.html) 
 
 ## 安装 
 
@@ -39,3 +44,11 @@ npm i lc-vue-auto-height-wrapper
   </div>
 </template>
 ```
+
+## API
+
+### Slots
+
+| 插槽名 | 说明 | 参数 |
+| ---- | ---- | ---- | 
+| default | 自定义内容 | size: \{ width: number, height: number \} |

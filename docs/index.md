@@ -1,11 +1,15 @@
 # lc-vue-auto-height-wrapper
 
+ResizeObserver封装， 能够方便的在template中获取父容器的尺寸
 
-自动适配外层容器容器尺寸
+常用场景：
+
+- 配合 element-plus 中的 table 组件实现动态容器固定表头
+
 
 ## 安装 
 
-```
+```bash
 npm i lc-vue-auto-height-wrapper 
 ```
 
@@ -61,3 +65,11 @@ npm i lc-vue-auto-height-wrapper
   </div>
 </template>
 ```
+
+## API
+
+### Slots
+
+| 插槽名 | 说明 | 参数 |
+| ---- | ---- | ---- | 
+| default | 自定义内容 | size: \{ width: number, height: number \} |

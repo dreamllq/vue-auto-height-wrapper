@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
+import pkg from '../../package.json';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/lc-vue-auto-height-wrapper/docs/.vitepress/dist',
-  title: "lc-vue-auto-height-wrapper",
-  description: "自动高度组件",
+  base: `/${pkg.name}/docs/.vitepress/dist`,
+  title: `${pkg.name}-${pkg.version}`,
+  description: pkg.description
 })
