@@ -1,6 +1,15 @@
 # lc-vue-auto-height-wrapper
 
+
 自动适配外层容器容器尺寸
+
+## 安装 
+
+```
+npm i lc-vue-auto-height-wrapper 
+```
+
+## 例子
 
 <script setup lang="ts">
   import { ref, computed } from 'vue';
