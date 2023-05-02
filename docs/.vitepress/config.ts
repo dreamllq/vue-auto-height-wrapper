@@ -5,7 +5,4 @@ export default defineConfig({
   base:'/lc-vue-auto-height-wrapper/docs/.vitepress/dist',
   title: "lc-vue-auto-height-wrapper",
   description: "自动高度组件",
-  themeConfig: {
-    sidebar: [],
-  }
 })

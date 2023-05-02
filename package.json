@@ -44,6 +44,7 @@
     "vite-plugin-css-injected-by-js": "^3.1.0",
     "vitepress": "^1.0.0-alpha.74",
     "vue": "^3.2.47",
-    "vue-tsc": "^1.4.2"
+    "vue-tsc": "^1.4.2",
+    "vuepress-plugin-clean-urls": "^1.1.2"
   }
 }
