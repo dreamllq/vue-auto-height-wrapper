@@ -21,6 +21,5 @@ export default defineConfig({
       'uuid',
       'moment'
     ] 
-  },
-  build: { modulePreload: false }
+  }
 });
